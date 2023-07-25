@@ -1,50 +1,100 @@
-body{
+body {}
 
-}
-.container{
+.container {
     margin-bottom: 50px;
 }
-.orange-bg{
+
+.orange-bg {
     background: #fceae8;
     border-radius: 10px;
-    
+
 }
-.price{
+
+.price {
     color: #ff136f;
 }
+
 .carousel-item {
     padding: 20px 40px;
 }
-.btn{
+
+.btn {
     color: white;
     background: linear-gradient(45deg, #ff136f, #ff0062);
 }
 
-.categories{
-    
-}
-.categories h1{
+.categories {}
+
+.categories h1 {
     color: white;
 }
-.categories img{
+
+.categories img {
     width: 100px;
 }
-.cat1, .cat2, .cat3{
+
+.cat1,
+.cat2,
+.cat3 {
     border-radius: 10px;
     padding: 10px;
 }
-.cat1{
+
+.cat1 {
     background: #f870a4;
-    
+
     background-image: linear-gradient(45deg, #EF932D, #f7bf7f);
 }
-.cat2{
+
+.cat2 {
     background-image: linear-gradient(45deg, #EE1E6B, #fd84b0);
 }
-.cat3{
+
+.cat3 {
     background-image: linear-gradient(45deg, #739bff, #2e69ff);
 }
-.card{
+
+.card {
     border: none;
     box-shadow: 5px 5px 10px lightgrey;
+}
+
+.card-footer {
+    background: none;
+    border: none;
+    padding: 0px 0px 25px 0px;
+}
+.mail-area{
+    height: 300px;
+}
+.mail-area h6{
+    color: gray;
+}
+.mail-area div{
+    text-align: center;
+}
+.mail-area input{
+    
+}
+.mail-area button{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background: #ff0867;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 0px 10px 10px 0px;
+    margin-left: 0px;
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+    background-color: #f8f9fa;
+    color: gray;
+    margin-bottom: 10px;
+}
+header{
+
+    background-color: #f8f9fa;
+
 }
